@@ -37,3 +37,9 @@ openssl s_client -connect hostname.com:443
 ```bash
 openssl s_client -starttls smtp -crlf -connect hostname.name:587
 ```
+
+## Contributing
+
+Any contributions (small and large) are very welcome! Please fork the
+repository, make your changes and send me a pull request or just open a new
+ticket.
