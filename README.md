@@ -10,8 +10,9 @@ cat foo.com.crt foo.com.key gd_bundle.crt > foo.com.pem
 
 ## Testing SSL connections
 
-Run the command, depending on the protocol you want to test. If everything is
-OK, you should see output similar to this, ending with `Verify return code: 0
+Run the command, depending on the protocol you want to test (make sure you're
+testing the right host:port). If everything is OK, you should see output similar
+to this, ending with `Verify return code: 0
 (ok)`:
 
 ```
