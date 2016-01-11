@@ -27,7 +27,7 @@ SSL-Session:
     Verify return code: 0 (ok)
 ```
 
-- HTTP / IMAP / POP3 / SMTP 
+- HTTP / IMAP / POP3 / SMTP
 ```bash
 openssl s_client -connect hostname.com:443
 ```
