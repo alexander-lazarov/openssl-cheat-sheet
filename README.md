@@ -1,4 +1,13 @@
 # OpenSSL cheat sheet
+
+## Generating/manipulating keys
+
+### Generate a `.pem` from `crt` and `key` files
+
+```bash
+cat foo.com.crt foo.com.key gd_bundle.crt > foo.com.pem
+```
+
 ## Testing SSL connections
 
 Run the command, depending on the protocol you want to test. If everything is
